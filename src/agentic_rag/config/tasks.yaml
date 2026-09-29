@@ -1,0 +1,58 @@
+query_analysis_task:
+  description: >
+    Analyze the user's question:
+    "{question}"
+
+    Identify the main topic, intent, and information required
+    to answer the question accurately.
+
+  expected_output: >
+    A clear analysis containing the user's intent, main topic,
+    and the key information required from the knowledge base.
+
+  agent: query_analyzer
+
+
+research_task:
+  description: >
+    Research the user's question:
+    "{question}"
+
+    Search the available knowledge base and retrieve the most relevant
+    information needed to answer the question.
+    Use only information supported by the available documents.
+
+  expected_output: >
+    A collection of relevant information retrieved from the knowledge base,
+    including the document-based facts that can be used to answer the question.
+
+  agent: researcher
+
+
+fact_check_task:
+  description: >
+    Fact-check the research findings for the user's question:
+    "{question}"
+
+    Review the research findings and verify that the information is supported
+    by the available knowledge base.
+    Identify any unsupported or incorrect claims.
+
+  expected_output: >
+    A verified set of facts with unsupported or incorrect information clearly identified.
+
+  agent: fact_checker
+
+
+answer_generation_task:
+  description: >
+    Generate the final answer for the user's question:
+    "{question}"
+
+    Use only the verified research findings.
+    Directly address the user's question and do not invent information.
+
+  expected_output: >
+    A concise, accurate and professional final answer based on the verified information.
+
+  agent: answer_generator

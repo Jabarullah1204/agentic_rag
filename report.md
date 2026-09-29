@@ -1,0 +1,3 @@
+If your order was cancelled 30 days ago, the refund review process may not have started yet. The policy is to review refunds within 7 days of receiving a request, which explains why your refund has likely not been processed within 5 business days. Since your order has been cancelled, it has entered into a review process that could take up to 5 business days, contingent upon approval. 
+
+If the refund has not been received within five business days after approval, you should contact the support team to check the shipment status and resolve any delays. Provide your order number for quick assistance. Following the cancellation and pending review, your refund process may have started, but given the policies and the processing timeframe, delays are not uncommon.
